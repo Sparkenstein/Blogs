@@ -6,3 +6,8 @@ They also have a blog where even you can write your own content.
 this repository is my humble attempt to start writing blogs on both sites (my personal blog and the devs network) while learning JavaScript.
 
 The blogs on [fosslife](www.fosslife.com) are hosted on AWS are managed with [VuePress](https://vuepress.vuejs.org/). 
+
+---
+
+## List of blogs:
+  * [You have been using console 'wrong' the whole time](./console/README.md)
