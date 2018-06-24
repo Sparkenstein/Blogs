@@ -7,7 +7,11 @@ this repository is my humble attempt to start writing blogs on both sites (my pe
 
 The blogs on [fosslife](www.fosslife.com) are hosted on AWS are managed with [VuePress](https://vuepress.vuejs.org/). 
 
----
 
+`PS: If you want to write your own blog as well I can publish it on my domain. it's easy as hell. just write it into a markdown and make a PR to the link mentioned in navbar under 'Contribute'`
+
+
+---
 ## List of blogs:
-  * [You have been using console 'wrong' the whole time](./console/README.md)
+  * [You have been using console 'wrong' the whole time](./console/)
+

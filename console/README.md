@@ -18,11 +18,13 @@ Let's take an example of the `.error()` method. This is very helpful when you ar
 
 Try running the following code in your console:
 
-```JavaScript
+```js{5}
 const getEmployeeSalaryByName = function(name){
   if(typeof name === "string") {
     return "Salary is $15000";
-  } else console.error(new TypeError("Name should be a string"));
+  } else {
+    console.error(new TypeError("Name should be a string"));  
+  }
 };
 
 getEmployeeSalaryByName(1322); //-> TypeError: "Name should be a string"
@@ -34,9 +36,9 @@ Sometimes it's a mess to see the structure of the objects printed by `console.lo
 
 The `data` parameter can be any enumerable object (Array, Objects, Set, Map, everyone is welcome). Believe it or not, it even supports nested objects like array of arrays `[[1,'Luffy'],[2,'Ichigo'],[3,'Goku'],[4,'Naruto']]` and complex objects like `{'rank' : [1,2,3,4], 'names': ['Luffy','Ichigo','Goku','Naruto']};` and you have to do literally nothing except pass this data to `console.table()` method and the browser will handle everything on its own. Example:
 
-![console.table() Array example](arr.png)
+![console.table() Array example](./arr.png)
 
-![console.table() Object example](obj.png)
+![console.table() Object example](./obj.png)
 
 Go ahead try it on your own. 
 
@@ -52,7 +54,7 @@ What can go wrong with this one? Although Paul Irish's [When milliseconds are no
 
 Take an example of following `for` loop:
 
-```JavaScript
+```js
 var m = 0;
 for (let i=0; i<=10000; i++){
   m = m + (Math.random() * 100) * i*i;
@@ -61,7 +63,7 @@ for (let i=0; i<=10000; i++){
 
 And you want to calculate the time taken by the for loop. You just prepend the loop with `console.time("benchmarkName")` before its execution and append `console.timeEnd("benchmarkName")` post exection. `benchmarkName` is nothing but a string which helps the browser identify which start point to correlate with `.timeEnd()` where multiple `console.time()` are involved. If you only have one `.time()` call, the nearest `.timeEnd()` will be associated with `default` as label.
 
-```JavaScript
+```js
 var m = 0;
 console.time("for10k");
 for (let i=0; i<=10000; i++){
@@ -76,7 +78,7 @@ And when the code executes, the browser will automatically start measuring time 
 
 This is yet another small but very handy method. It takes two parameters—the predicate or expression which evaluates to true/false, and the message which is to be printed when predicate evaluates to `false`. Note that in case the assertion is true, it doesn't print anything.
 
-```JavaScript
+```js
 const timeTravellersArray = ["Okabe"];
 
 function isTimeTraveller(name){
@@ -93,7 +95,7 @@ if(!isOkabeATimeTraveller){
 
 With console.assert, this can be slimmed down to:
 
-```JavaScript
+```js
 console.assert(isTimeTraveller("Okabe"), "Okabe is not a time traveller");
 ```
 
@@ -103,7 +105,7 @@ Amazing isn't it?
 
 This is a very helpful method when you want to list down all the properties of an object in a 'collapsible tree' format. Although it does not look completly different from console.log(), it treats it's parameters different from `console.log`. Try executing this example below yourself to see the different outputs:
 
-```JavaScript
+```js
 console.log(document.body);
 console.dir(document.body);
 ```
@@ -112,7 +114,7 @@ console.dir(document.body);
 
 consider a scenario where you have to output multiple messages, while keeping the hierarchy of the functions from which the messages are coming from. Normally I'd have just assigned it to some `message` object and printed that object. But here we are outputting another object and not the message itself. To overcome this, console provides a nice method called `.group()` which groups output in folders. Consider the following example:
 
-```JavaScript
+```js
 console.group("first");
 console.log("inside first 1");
 console.group("first1");
@@ -131,6 +133,10 @@ console.groupEnd("second");
 ```
 
 Even though the utility of this function may be debatable, you'll be amazed how well formatted the output messages are.
+
+Example output:
+
+![console.group](./groups.png)
 
 > Note: `console.group` is not available in node as well.
 
