@@ -1,6 +1,6 @@
 # You have been using 'console' wrong the whole time
 
-As a newcomer to any language, the first thing you ever try out is the "Hello World!" program of the respective laguage. JavaScript is not an exception. When I started learning JavaScript, my first line of code was 
+As a newcomer to any language, the first thing you ever try out is the "Hello World!" program of the respective language. JavaScript is not an exception. When I started learning JavaScript, my first line of code was 
 
 ```JavaScript
 console.log("Hello World!");
@@ -10,11 +10,11 @@ And that's it! After learning `console.log` can print anything from the script t
 
 It can print strings, numbers, variables, objects, arrays, execute and print the output of functions, concatenate multiple outputs and what not. But I recently learned that this is not the only power of the console object. It can do many more things that we are unaware of. And that is what we are going to take a look today.
 
-## Differenciate output Message as Error, Warning, Debug and Info
+## differentiate output Message as Error, Warning, Debug and Info
 
-`.log()` method of the console object is a very basic method which takes the input and prints it directly to the browser console. To differenciate the output message in the form of Error, Warning, Info, Debug, console has the methods `.error()`, `.warn()`, `.info()`, and `.debug()` respectively.
+`.log()` method of the console object is a very basic method which takes the input and prints it directly to the browser console. To differentiate the output message in the form of Error, Warning, Info, Debug, console has the methods `.error()`, `.warn()`, `.info()`, and `.debug()` respectively.
 
-Let's take an example of the `.error()` method. This is very helpful when you are outputting an error message to the console. It not only prints the message in bright red so the user can look for it specifically, but also provides a nice stack trace of the function calls as well. On the browser, you can filter errors/warnings from the console toolbar if required, and in nodejs, they are outputed to stderr.
+Let's take an example of the `.error()` method. This is very helpful when you are outputting an error message to the console. It not only prints the message in bright red so the user can look for it specifically, but also provides a nice stack trace of the function calls as well. On the browser, you can filter errors/warnings from the console toolbar if required, and in nodejs, they are outputted to stderr.
 
 Try running the following code in your console:
 
@@ -61,7 +61,7 @@ for (let i=0; i<=10000; i++){
 }
 ```
 
-And you want to calculate the time taken by the for loop. You just prepend the loop with `console.time("benchmarkName")` before its execution and append `console.timeEnd("benchmarkName")` post exection. `benchmarkName` is nothing but a string which helps the browser identify which start point to correlate with `.timeEnd()` where multiple `console.time()` are involved. If you only have one `.time()` call, the nearest `.timeEnd()` will be associated with `default` as label.
+And you want to calculate the time taken by the for loop. You just prepend the loop with `console.time("")` before its execution and append `console.timeEnd("benchmarkName")` post execution. `benchmarkName` is nothing but a string which helps the browser identify which start point to correlate with `.timeEnd()` where multiple `console.time()` are involved. If you only have one `.time()` call, the nearest `.timeEnd()` will be associated with `default` as label.
 
 ```js
 var m = 0;
@@ -103,7 +103,7 @@ Amazing isn't it?
 
 ## See all the properties of an object with console.dir
 
-This is a very helpful method when you want to list down all the properties of an object in a 'collapsible tree' format. Although it does not look completly different from console.log(), it treats it's parameters different from `console.log`. Try executing this example below yourself to see the different outputs:
+This is a very helpful method when you want to list down all the properties of an object in a 'collapsible tree' format. Although it does not look completely different from console.log(), it treats it's parameters different from `console.log`. Try executing this example below yourself to see the different outputs:
 
 ```js
 console.log(document.body);
