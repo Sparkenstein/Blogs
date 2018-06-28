@@ -1,7 +1,6 @@
 # JavaScript Type System - 1.
 
-JavaScript is an untyped language. Some may prefer to call it a dynamic or loosely typed language. But I am going to stick with the word 'untyped' here[^1]. That means, it lets you declare and even reassign the variables to any types without specifying
-the data type of the variable. These types are handled implicitly, when the program is executed.
+JavaScript is dynamic and weakly typed language. Some may prefer to call it untyped, but that is just a misnomer. It means, JS lets you declare and even reassign the variables to any types without specifying the data type of the variable. These types are handled implicitly, when the program is executed.
 Consider the following example: 
 ```js
 const superhero = "Spider-Man";
@@ -37,7 +36,7 @@ console.info(typeof isFastestManAlive);
 
 ## Number
 
-In similar words, the number is numeric data type of JavaScript language. In complex words, Number is a numeric data type in the double-precision 64-bit floating point format (IEEE 754)[^2]. You can represent any numeric entity with number type in JavaScript. run the following statements in browser to know how number type is represented:
+In similar words, the number is numeric data type of JavaScript language. In complex words, Number is a numeric data type in the double-precision 64-bit floating point format (IEEE 754)[^1]. You can represent any numeric entity with number type in JavaScript. run the following statements in browser to know how number type is represented:
 ```js
 console.info(typeof 5);
 console.info(typeof 1.2);
@@ -117,5 +116,4 @@ Well, that's it for the first part. I will cover the Remaining two types in [sec
 
 
 
-[^1]: [Brendan Eich on tweeter](https://twitter.com/brendaneich/status/166310376340848643) 
-[^2]: [MDN Number Type](https://developer.mozilla.org/en-US/docs/Glossary/Number)
+[^1]: [MDN Number Type](https://developer.mozilla.org/en-US/docs/Glossary/Number)

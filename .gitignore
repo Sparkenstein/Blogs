@@ -2,3 +2,5 @@ node_modules/
 .vuepress/
 dest/
 aws
+package.json
+yarn.lock
