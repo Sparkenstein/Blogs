@@ -1,4 +1,4 @@
-# JavaScript Type System - 1.
+# Types in JavaScript [Part- 1].
 
 JavaScript is dynamic and weakly typed language. Some may prefer to call it untyped, but that is just a misnomer. It means, JS lets you declare and even reassign the variables to any types without specifying the data type of the variable. These types are handled implicitly, when the program is executed.
 Consider the following example: 
