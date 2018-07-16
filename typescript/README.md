@@ -1,4 +1,4 @@
-# TypeScript 
+# TypeScript [Part-1]
 
 Few days ago I wrote a blog on javascript types. althought It was meant to be a beginner friendly introduction, we saw some Funny `conversions` of types happening in front of us. This bad boy is known as 'Coercion'. This happens usually when we try to compare or concat or modify one type with other forcibly. 
 
@@ -87,7 +87,7 @@ function goal() : void {
 }
 ```
 
-Well, that's it for the first part. stay tuned to the advance TypeScript which I am going to cover in my next post.
+Well, that's it for the first part. stay tuned to the advance TypeScript which I am going to cover in my [next post](./part2/).
 
 
 [^1]: [Wiki](https://en.wikipedia.org/wiki/TypeScript)
