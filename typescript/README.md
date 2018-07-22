@@ -1,6 +1,6 @@
 # TypeScript [Part-1]
 
-Few days ago I wrote a blog on javascript types. althought It was meant to be a beginner friendly introduction, we saw some Funny `conversions` of types happening in front of us. This bad boy is known as 'Coercion'. This happens usually when we try to compare or concat or modify one type with other forcibly. 
+Few days ago I wrote a blog on JavaScript types. althought It was meant to be a beginner friendly introduction, we saw some Funny `conversions` of types happening in front of us. This bad boy is known as 'Coercion'. This happens usually when we try to compare or concat or modify one type with other forcibly. 
 
 ```js{2}
 let variable = "0";
@@ -14,7 +14,7 @@ if(variable == false){
 This is not just a bad practice to compare two different types explicitly in js but also it can be very degnerous from the products perspective. 
 try the same example with `===` instead (and changing the variable name ofc, otherwise it will result in error). 
 
-Yeah, this is the reason why some people curse Javascript. But infact they just don't understand what is going wrong.  To overcome this Microsoft released a new language around 5 years ago called `TypeScript`. TypeScript is nothing but a "strict syntactical superset of JavaScript[^1]". If you change your existing independent JavaScript file name to a `.ts` extentiona and run it through the TypeScript compiler (Transpiler actually, but Eh!) The code should run fine as it is. Because, TypeScript actully compiles to (Transpiles to, Yes. ) JavaScript only. let's take an example. But before that, you are going to need the TypeScript compiler (Transpiler) first.  Install it using:
+Yeah, this is the reason why some people curse JavaScript. But infact they just don't understand what is going wrong.  To overcome this Microsoft released a new language around 5 years ago called `TypeScript`. TypeScript is nothing but a "strict syntactical superset of JavaScript[^1]". If you change your existing independent JavaScript file name to a `.ts` extentiona and run it through the TypeScript compiler (Transpiler actually, but Eh!) The code should run fine as it is. Because, TypeScript actully compiles to (Transpiles to, Yes. ) JavaScript only. let's take an example. But before that, you are going to need the TypeScript compiler (Transpiler) first.  Install it using:
 ```bash
 npm i -g typescript
 ```

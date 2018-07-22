@@ -131,3 +131,4 @@ class June implements month {
 }
 ```
 here, TypeScript will enforce you to have a property called `numberOfDays` in class `June`. without it, the TS will throw an error.
+Thank you for reading. There is much more to write but unfortunatly I can't cover everything in just a blog. Read more at official typescript [website](typescriptlang.org)

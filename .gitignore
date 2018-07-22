@@ -4,3 +4,5 @@ dest/
 aws
 package.json
 yarn.lock
+test.*
+images/

@@ -16,4 +16,5 @@ The blogs on [fosslife](www.fosslife.com) are hosted on AWS are managed with [Vu
   * [You have been using console 'wrong' the whole time](./console/)
   * [JavaScript Types](./types/)
   * [TypeScipt](./typescript/)
+  * [Don't let the web Break](./exception/)
 
