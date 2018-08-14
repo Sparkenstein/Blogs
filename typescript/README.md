@@ -1,6 +1,17 @@
-# TypeScript [Part-1]
+---
+title: TypeScript
+date: '2018-07-18 22:16:05'
+meta:
+  - name: description
+    content: TypeScript tutorial
+  - name: keywords
+    content: types typescript
+---
 
-Few days ago I wrote a blog on JavaScript types. althought It was meant to be a beginner friendly introduction, we saw some Funny `conversions` of types happening in front of us. This bad boy is known as 'Coercion'. This happens usually when we try to compare or concat or modify one type with other forcibly. 
+
+Few days ago I wrote a blog on JavaScript types. That post was complete base for this tutorial
+<!-- more -->
+althought It was meant to be a beginner friendly introduction, we saw some Funny `conversions` of types happening in front of us. This bad boy is known as 'Coercion'. This happens usually when we try to compare or concat or modify one type with other forcibly. 
 
 ```js{2}
 let variable = "0";

@@ -1,3 +1,15 @@
+---
+title: About Me
+date: '2018-07-10 21:23:13'
+activity: true
+hidden: true
+meta:
+  - name: description
+    content: About me
+  - name: keywords
+    content: about
+---
+
 # Myself
 
 Hello, My name is Spark (Not the real one of course). I am a Python developer. I like to learn new technologies as well. I am currently

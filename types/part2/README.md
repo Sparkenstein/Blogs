@@ -1,7 +1,14 @@
-
-##### Types Continue:
-
-## Objects
+---
+title: JavaScript Type system [part-2]
+date: '2018-07-16 21:14:15'
+meta:
+  - name: description
+    content: Javascript type system part 2
+  - name: keywords
+    content: types string objects number
+---
+Part -  2 of the previous JavaScript Types tutorial continues
+<!-- more -->
 
 There was a reason because I couldn't complete this topic on JavaScript types in just one part. the primitive types are very easy to understand in JS. Besides some anomalous behaviour
 each primitive data type behaves exactly like it's name states. objects and the Symbols on the other hand, are quite difficult to understand if you are starting from the beginning. 

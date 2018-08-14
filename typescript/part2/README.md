@@ -1,4 +1,15 @@
-## TypeScript [Part-2]
+---
+title: TypeScript [part-2]
+date: '2018-07-20 16:02:25'
+meta:
+  - name: description
+    content: TypeScript tutorial part 2
+  - name: keywords
+    content: types typescript
+---
+
+This is a part - 2 of my previous post on TypeScript
+<!-- more -->
 
 If you haven't read my previous blog already I'd suggest you to go and read it. Though it's not neccessary but I have covered basics of TypeScript in that post. This post is going to cover mostly advance topics. I will try to keep it short as many of these advance features are supposed to be learned by practice and not theory.
 

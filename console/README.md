@@ -1,7 +1,15 @@
-# You have been using 'console' wrong the whole time
+---
+title: You have been using 'console' wrong the whole time
+date: '2018-07-10 22:50:43'
+meta:
+  - name: description
+    content: Let's dive into proper use cases of console object
+  - name: keywords
+    content: console, log, javascript
+---
 
 As a newcomer to any language, the first thing you ever try out is the "Hello World!" program of the respective language. JavaScript is not an exception. When I started learning JavaScript, my first line of code was 
-
+<!-- more -->
 ```JavaScript
 console.log("Hello World!");
 ```

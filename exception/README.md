@@ -1,6 +1,16 @@
-# Don't let the web Break
+---
+title: Don't let the web Break
+date: '2018-07-13 20:41:05'
+meta:
+  - name: description
+    content: Exception handling in JavaScript
+  - name: keywords
+    content: try-catch, exception handling, javascript
+---
 
-JavaScript is notorius about being a bad girl when it comes to handling types. People usually don't understand 'why' it's happening and then they blame JavaScript for it. Well, Errors occur in every language. If you are storing a integer in a boolean type, the compiler of most of the languages (static mostly) are not gonna like it, JavaScript is no exception. But they say JavaScript is a more forgiving language. You don't wanna show user `"Error: VM:1542: TypeError('Null') stacktrace: ..."` Just because your front-end developer Bob forgot to give a semi-colon `;`. JavaScript will not break that easily. But that doesn't make it a stronghold or something. In real life, the errors and exceptions WILL occur and you want to be prepared for them. 
+JavaScript is notorius about being a bad girl when it comes to handling types. People usually don't understand 'why' it's happening and then they blame JavaScript for it.
+<!-- more -->
+ Well, Errors occur in every language. If you are storing a integer in a boolean type, the compiler of most of the languages (static mostly) are not gonna like it, JavaScript is no exception. But they say JavaScript is a more forgiving language. You don't wanna show user `"Error: VM:1542: TypeError('Null') stacktrace: ..."` Just because your front-end developer Bob forgot to give a semi-colon `;`. JavaScript will not break that easily. But that doesn't make it a stronghold or something. In real life, the errors and exceptions WILL occur and you want to be prepared for them. 
 
 ### Exceptions and Errors
 On the surface, Both of them occur when something breaks, or does not work as expected. On the technical perspective, the Errors are occurred in an irrecoverable scenario while exceptions occur where failure is/was recoverable. JavaScript Does not care between two and both things are considered as a part of `Error` Object. When something goes wrong, the Error object is initialized and execution of the current program is stopped.
