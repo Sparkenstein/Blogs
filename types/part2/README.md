@@ -1,6 +1,9 @@
 ---
 title: JavaScript Type system [part-2]
 date: '2018-07-16 21:14:15'
+tag: 
+  - types
+  - javascript
 meta:
   - name: description
     content: Javascript type system part 2

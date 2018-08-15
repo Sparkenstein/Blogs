@@ -1,6 +1,9 @@
 ---
 title: TypeScript [part-2]
 date: '2018-07-20 16:02:25'
+tag: 
+  - types
+  - typescript
 meta:
   - name: description
     content: TypeScript tutorial part 2

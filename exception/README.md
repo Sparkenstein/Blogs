@@ -1,6 +1,10 @@
 ---
 title: Don't let the web Break
 date: '2018-07-13 20:41:05'
+tag: 
+  - exception
+  - error
+  - javascript
 meta:
   - name: description
     content: Exception handling in JavaScript

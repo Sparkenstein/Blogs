@@ -1,6 +1,9 @@
 ---
 title: JavaScript Type system
 date: '2018-07-15 19:44:45'
+tag: 
+  - types
+  - javascript
 meta:
   - name: description
     content: Javascript type system

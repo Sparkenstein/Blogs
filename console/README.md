@@ -1,6 +1,9 @@
 ---
 title: You have been using 'console' wrong the whole time
 date: '2018-07-10 22:50:43'
+tag: 
+  - console
+  - javascript
 meta:
   - name: description
     content: Let's dive into proper use cases of console object
