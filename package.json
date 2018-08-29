@@ -3,6 +3,7 @@
     "markdown-it-footnote": "^3.0.1"
   },
   "dependencies": {
-    "vuepress-theme-yubisaki": "^3.0.2"
+    "vuepress-theme-ktquez": "^0.1.30",
+    "vuepress-theme-yubisaki": "^3.0.3"
   }
 }
