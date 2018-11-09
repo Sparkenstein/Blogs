@@ -1,9 +1,29 @@
 {
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "fosslife blogs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sparkenstein/blogs.git"
+  },
+  "keywords": [
+    "blogs",
+    "fosslife"
+  ],
+  "author": "Sparkenstein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sparkenstein/blogs/issues"
+  },
   "devDependencies": {
     "markdown-it-footnote": "^3.0.1"
   },
   "dependencies": {
-    "vuepress-theme-ktquez": "^0.1.30",
     "vuepress-theme-yubisaki": "^3.0.3"
-  }
+  },
+  "homepage": "https://github.com/Sparkenstein/blogs#readme"
 }
