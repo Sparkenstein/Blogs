@@ -94,17 +94,17 @@ const data = [
 ```
 Lets say we just want to get `name` of the customer and what `items` they bought. Sure, with imperative way you can declare an empty array `result` , iterate over current, take `name` and `items` from it, `.push` it to the `result` array. that's not what we are here to learn are we? let me enlighten you.
 ```js
-const res = data.reduce((acc, curr)=>({...acc, [curr.name]:curr.items}),[]);
+const res = data.reduce((acc, curr)=>({...acc, [curr.name]:curr.items}),{});
 ```
 Head hurts? Yeah it's the sign of you understanding the power of `reduce` so don't worry, it's normal. let's simplify it more. old function syntax anyone?
 
 ```js
-var res = data.reduce(function(){
+var res = data.reduce(function(acc, curr){
     return {
         ...acc,
         [curr.name]:curr.items
     }
-}, [])
+}, {})
 ```
 `...acc` is the spread syntax. if you don't know what it is, for now just consider it will just `put` or `spread` all of it's content in the object. try creating a simple array, and then just print `{...yourarray}`. it's an ES6 magic. Now I know this post too is getting longer, but this is the last example I swear, let's debug this.
 
